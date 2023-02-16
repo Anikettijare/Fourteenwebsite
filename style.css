@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    font-family: sans-serif;
+}
+.head_box{
+    background-image: url('images/BG-net.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-bottom: 8px solid gray;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: radial-gradient(rgb(20, 20, 20,0.7),rgb(19, 18, 18,0.7))!important;
+}
+.logo h1{
+    color: rgb(202, 72, 72);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.nav_btns select{
+    padding: 10px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+.nav_btns option{
+    background-color: #868484;
+}
+.nav_btns a{
+    background-color: rgb(240, 74, 74);
+    padding: 10px;
+    text-decoration: none;
+}
+header{
+    padding: 130px;
+    text-align: center;
+    background-image: radial-gradient(rgb(20, 20, 20,0.7),rgb(19, 18, 18,0.7))!important;
+}
+.header_portion{
+    margin: 0 90px;
+    line-height: 60px;
+}
+.header_portion h1{
+    font-size: 67px;
+}
+.header_portion h4{
+    font-size: 25px;
+    font-weight: 300;
+}
+.header_portion p{
+    font-size: 20px;
+}
+.header_portion input{
+    width: 62%;
+    height: 47px;
+    padding: 0 10px;
+}
+.header_portion a{
+    background-color: rgb(240, 74, 74);
+    padding: 18px 20px;
+    text-decoration: none;
+    margin:-6px;
+    font-size: 14px;
+}
+/* css applied to section first div */
+.section_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px ;
+    border-bottom: 8px solid gray;
+    background: transparent;
+}
+.info_box{
+    width: 50%;
+    height: 100%;
+    margin: 0 40px;
+}
+.info_box h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.info_box h2{
+    font-weight: 200;
+}
+.img_part{
+    position: relative;
+    overflow: hidden;
+}
+.img_part img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.info_cont {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    max-width: 73%;
+    top: 21%;
+    right: 14%;
+}
+.info_cont video{
+    width: 100%;
+    height: auto;
+}
+/* css applied to section second div */
+.strange_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px ;
+    border-bottom: 8px solid gray;
+    background: transparent;
+}
+.str_info{
+    width: 50%;
+    height: 100%;
+    margin: 0 40px;
+}
+.str_info h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.str_info h2{
+    font-weight: 200;
+}
+.str_img img{
+    width: 100%;
+    position: relative;
+}
+.str_img{
+    position: relative;
+    overflow: hidden;
+}
+.content_sec{
+    position: absolute;
+    border: 2px solid gray;
+    display: flex;
+    gap: 12%;
+    align-items: center;
+    top: 65%;
+    left: 20%;
+    width: 100%;
+    max-width: 51%;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+.content_sec img{
+    width: 100%;
+    max-width: 50px;
+}
+.str_con p{
+    color: rgb(16, 16, 231);
+}
+/* css applied to section third div */
+.watch_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px ;
+    border-bottom: 8px solid gray;
+    background: transparent;
+}
+.wth_info{
+    width: 50%;
+    height: 100%;
+    margin: 0 40px;
+}
+.wth_info h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.wth_info h2{
+    font-weight: 200;
+}
+.wth_img{
+    position: relative;
+    overflow: hidden;
+}
+.wth_img img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.wth_cont{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    max-width: 62%;
+    right: 20%;
+}
+.wth_cont video{
+    width: 100%;
+    height: auto;
+}
+/* css applied to sections fourth div */
+.childsp_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px ;
+    border-bottom: 8px solid gray;
+    background: transparent;
+}
+.chi_info{
+    width: 50%;
+    height: 100%;
+    margin: 0 40px;
+}
+.chi_info h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.chi_info h2{
+    font-weight: 200;
+}
+.chi_img img{
+    width: 100%;
+}
+/* css applied to section second */
+.frq_section{
+    padding: 70px 100px;
+    border-bottom: 8px solid gray;
+}
+.frq_head{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+details{
+    font-size: 25px;
+    padding: 20px;
+    background-color: #403f3fd1;
+    margin: 10px;
+}
+details p{
+    padding: 30px;
+}
+summary span{
+    float: right;
+}
+.in_field{
+    margin: 30px;
+}
+form{
+    text-align: center;
+    margin-top: 50px;
+}
+form h3{
+    font-weight: 300;
+}
+form input[type=email]{
+    width: 60%;
+    height: 47px;
+    padding: 0 10px;
+}
+form input[type=button]{
+    background-color: rgb(240, 74, 74);
+    padding: 18px 20px;
+    text-decoration: none;
+    margin-left: -20px;
+    font-size: 14px;
+}
+/* css applied to footer section */
+footer{
+    background-color: black;
+    padding: 100px;
+}
+.footer_part{
+    display: flex;
+    gap: 80px;
+    padding: 30px 0;
+}
+.foot_head p{
+    color: #868484!important;
+}
+.foot ul li{
+    list-style: none;
+    color: #868484!important;
+    margin: 20px 0;
+}
+.lang_section select{
+    padding: 10px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+.lang_section option{
+    background-color: #413e3e;
+}
+.lang_section p{
+    color: #868484;
+    padding: 20px 0;
+}
+@media (max-width:1000px) {
+    .section_box,.watch_box{
+        flex-direction: column;
+    }
+    .strange_box,.childsp_box{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:800px) {
+    header {
+        padding: 80px 5px;
+    }
+    .header_portion {
+        margin: 0 50px;
+    }
+    .info_box,.str_info,.wth_info,.chi_info {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .header_portion {
+        margin: 0 2px;
+        line-height: 39px;
+    }
+    .header_portion h1 {
+        font-size: 40px;
+    }
+    .section_box,.watch_box{
+        padding: 10px;
+    }
+    .strange_box,.childsp_box{
+        padding: 10px;
+    }
+    .info_box h1,.str_info h1,.wth_info h1,.chi_info h1 {
+        font-size: 35px;
+    }
+    .str_con h4,p{
+        font-size: 10px;
+    }
+    .frq_section {
+        padding: 70px 0px;
+    }
+    .in_field {
+        margin: 20px;
+    }
+    .footer_part{
+        display: block;
+        gap: 10px;
+    }
+}
