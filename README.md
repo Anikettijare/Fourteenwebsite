@@ -9,4 +9,4 @@ Here I have designed clone of netflix website as my project.
 ## Time Required
 - For designing website its take my 6 hours.
 ## Live Demo
-[LIVE](https://github.com/Anikettijare/clone-microsoft)
+[LIVE](https://clonesofnetflix.netlify.app/)
